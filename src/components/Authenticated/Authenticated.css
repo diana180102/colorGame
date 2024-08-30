@@ -1,0 +1,7 @@
+
+
+.task-data > input[type="checkbox"] {
+  margin-top: 8px;
+  flex-grow: 0;
+}
+

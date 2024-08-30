@@ -1,0 +1,14 @@
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+ font-weight: 500;
+  
+}
+
+.nav-item:hover {
+  background: #d4d4d4;
+}
