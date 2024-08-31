@@ -110,10 +110,14 @@ function ColorGame() {
               : backgroundColor;
           const op = status === "win" ? "100" : opacity;
 
+          const isActive = status === "win" || status === "lose" ? true : false;
+
           return (
             <Button
+              
               key={index}
               style={{ backgroundColor: bgColor, opacity: op }}
+              disabled ={isActive}
               onClick={() => {
                 handleGame(color);
               }}
